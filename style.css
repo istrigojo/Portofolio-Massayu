@@ -14,6 +14,8 @@ body {
 
 .main-container {
     width: 1100;
+    padding-left: 5rem;
+    padding-right: 4rem;
     margin: 0 auto;
 }
 
@@ -144,6 +146,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 3rem;
+    padding: 5rem;
 }
 
 .about {
@@ -160,4 +163,66 @@ section {
 
 .about p {
     color: black;
+}
+
+/* Project */
+#projects {
+    padding: 6rem 0;
+    background-color:  #FFE3DD;
+}
+
+.section-title-about {
+    text-align: center;
+    margin: 1rem 0 1rem;
+}
+
+/* Skills n E */
+#skills {
+    padding: 6rem 0;
+    background-color: #FFE3DD;
+}
+
+.section-title-about {
+    text-align: center;
+    margin: 1rem 0 1rem;
+}
+
+.skills-grid {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.experience {
+    display: flex;
+    gap: 2rem;
+}
+
+.experience line {
+    padding: 0 0.7rem;
+}
+
+.experience .line div {
+    width: 2px;
+    height: 100%;
+    background: black;
+    position: relative;
+}
+
+.experience info {
+    margin: 0.3rem 0;
+}
+
+.experience date {
+    margin-bottom: 3rem;
+}
+
+.experience .line div::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
 }
