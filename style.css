@@ -8,6 +8,7 @@ main {
 
 section:nth-child(odd) {
     background-color: #FFE3DD;
+    overflow-x: hidden;
 }
 
 .navbar {
