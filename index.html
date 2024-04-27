@@ -4,196 +4,318 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <!-- JS -->
-    <script src="script.js"></script>
-
     <title>Massayu | Portofolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Header -->
     <header>
-        <div class="navbar-nav">
-            <!-- <div class="container"> -->
-            <ul class="nav justify-content-center">
-                <li style="margin-inline: 10px;">
-                    <a class="nav-link js-scroll-trigger" href="#home">Home</a>
-                </li>
-                <li style="margin-inline: 10px;">
-                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                </li>
-                <li style="margin-inline: 10px;">
-                    <a class="nav-link  js-scroll-trigger" href="#projects">Projects</a>
-                </li>
-                <li style="margin-inline: 10px;">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-
-    <div class="hidden main-container" style="background-color: #FFE3DD;">
-        <section id="home">
-            <div class="home-left">
-                <h3 class="pre-title">Hi!👋 I am</h3>
-                <h1 class="home-name">Massayu Urbaningrum <br>Sarijati</h1>
-                <p>Accounting Technician and Informatics engineering student</p> <br>
-                <a href="">
-                    <button type="button" class="btn btn-outline-primary">My Resume</button>
-                </a>
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary py-3">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse py-lg-1 d-lg-flex justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="#home">Home</a>
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#experience">Experience</a>
+                        <a class="nav-link" href="#projects">Project</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
             </div>
-            <div class="home-right">
-                <img src="img/massayuclear2.png" alt="foto massayu">
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="container-fluid d-flex flex-column justify-content-center">
+            <div class="row pt-5 pt-lg-0 mx-5">
+                <div class="col p-2 d-flex justify-content-center align-items-start flex-column">
+                    <p class="fs-5 text-secondary blockquote-footer">Hi 👋 I am</p>
+                    <h1 class="fw-bold display-4 ">Massayu Urbaningrum Sarijati </h1>
+                    <p class="lead">Accounting Technician and Informatics Engineering Student</p>
+                    <a href="">
+                        <button type="button" class="btn btn-outline-primary">My Resume</button>
+                    </a>
+                </div>
+                <div class="col px-2 pt-3 d-flex justify-content-center justify-content-lg-end">
+                    <img src="img/massayuclear.png" alt="">
+                </div>
             </div>
         </section>
-    </div>
-    <!-- End Header -->
-
-    <!-- About Me -->
-    <section id="about">
-        <div class="main-container">
-            <h1 class="section-title-about">About</h1>
-            <p style="text-align: center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laborum magnam quia voluptatibus, nemo
-                tempora, ducimus fugit, iste nesciunt mollitia incidunt minus ullam. Dicta architecto explicabo mollitia
-                culpa soluta facere.
-            </p>
-            <br>
-            <div class="grid-3">
-                <!-- About 1 -->
-                <div class="about">
-                    <div class="about-icon">
-                        <img src="path_to_your_image" alt="">
-                    </div>
-                    <h4>Accounting</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum ut distinctio porro, modi,
-                    </p>
-                </div>
-                <!-- About 1 -->
-                <div class="about">
-                    <div class="about-icon">
-                        <img src="path_to_your_image" alt="">
-                    </div>
-                    <h4>Accounting</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum ut distinctio porro, modi,
-                    </p>
-                </div>
-                <!-- About 1 -->
-                <div class="about">
-                    <div class="about-icon">
-                        <img src="path_to_your_image" alt="">
-                    </div>
-                    <h4>Accounting</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum ut distinctio porro, modi,
-                    </p>
+        <section id="about" class="container-fluid mt-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col px-5 text-center">
+                    <h1 class="fw-normal">About</h1>
+                    <p class="px-0 mt-3 px-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+                        recusandae
+                        ab maiores, modi atque asperiores deserunt possimus itaque aliquam aut, in vitae ullam quasi
+                        laboriosam dolorum porro? Molestiae debitis repudiandae nam mollitia.</p>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- End About -->
-
-    <!-- Skill n Experience -->
-    <section id="skills">
-        <div class="skill main-container">
-            <h1 class="section-title-about">My Experience</h1>
-            <div class="skills-grid">
-                <div class="skills-left">
-                    <!-- 1 -->
-                    <div class="experience">
-                        <div class="line">
-                            <div></div>
+            <div class="row justify-content-center pt-4 gap-3">
+                <div class="col-10 col-md-3">
+                    <div class="card rounded-4">
+                        <div class="card-body p-5">
+                            <div class="card-text text-center">
+                                <h4>Accounting</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum ut distinctio
+                                    porro, modi,
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="experience-info">
-                        <h4 class="experience-title">Menjadi Anime</h4>
-                        <p>My experience</p>
-                        <h4 class="experience-date">2024 Februari - Juni</h4>
-                    </div>
-                    <!-- 1 -->
-                    <div class="experience">
-                        <div class="line">
-                            <div></div>
+                </div>
+                <div class="col-10 col-md-3">
+                    <div class="card rounded-4">
+                        <div class="card-body p-5">
+                            <div class="card-text text-center">
+                                <h4>Accounting</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum ut distinctio
+                                    porro, modi,
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="experience-info">
-                        <h4 class="experience-title">Menjadi Anime</h4>
-                        <p>My experience</p>
-                        <h4 class="experience-date">2024 Februari - Juni</h4>
-                    </div>
-                    <!-- 1 -->
-                    <div class="experience">
-                        <div class="line">
-                            <div></div>
+                </div>
+                <div class="col-10 col-md-3">
+                    <div class="card rounded-4">
+                        <div class="card-body p-5">
+                            <div class="card-text text-center">
+                                <h4>Accounting</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum ut distinctio
+                                    porro, modi,
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="experience-info">
-                        <h4 class="experience-title">Menjadi Anime</h4>
-                        <p>My experience</p>
-                        <h4 class="experience-date">2024 Februari - Juni</h4>
+                </div>
+            </div>
+        </section>
+        <section id="experience" class="container-fluid mt-5 p-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col px-5 text-center">
+                    <h1 class="fw-normal">Experience</h1>
+                </div>
+            </div>
+            <div class="row pt-3 px-5">
+                <div class="col px-0 mt-4 px-md-5">
+                    <ul class="timeline">
+                        <li class="timeline-item mb-5">
+                            <h5 class="fw-bold">Our company starts its operations</h5>
+                            <p class="text-muted mb-2 fw-bold">11 March 2020</p>
+                            <p class="text-muted">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                                necessitatibus adipisci, ad alias, voluptate pariatur officia
+                                repellendus repellat inventore fugit perferendis totam dolor
+                                voluptas et corrupti distinctio maxime corporis optio?
+                            </p>
+                        </li>
+
+                        <li class="timeline-item mb-5">
+                            <h5 class="fw-bold">First customer</h5>
+                            <p class="text-muted mb-2 fw-bold">19 March 2020</p>
+                            <p class="text-muted">
+                                Quisque ornare dui nibh, sagittis egestas nisi luctus nec. Sed
+                                aliquet laoreet sapien, eget pulvinar lectus maximus vel.
+                                Phasellus suscipit porta mattis.
+                            </p>
+                        </li>
+
+                        <li class="timeline-item mb-5">
+                            <h5 class="fw-bold">Our team exceeds 10 people</h5>
+                            <p class="text-muted mb-2 fw-bold">24 June 2020</p>
+                            <p class="text-muted">
+                                Orci varius natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. Nulla ullamcorper arcu lacus, maximus
+                                facilisis erat pellentesque nec. Duis et dui maximus dui aliquam
+                                convallis. Quisque consectetur purus erat, et ullamcorper sapien
+                                tincidunt vitae.
+                            </p>
+                        </li>
+
+                        <li class="timeline-item mb-5">
+                            <h5 class="fw-bold">Earned the first million $!</h5>
+                            <p class="text-muted mb-2 fw-bold">15 October 2020</p>
+                            <p class="text-muted">
+                                Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed
+                                et urna sit amet massa dapibus tristique non finibus ligula. Nam
+                                pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit
+                                vulputate mattis.
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="container-fluid mt-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col px-5 text-center">
+                    <h1 class="fw-normal">Projects</h1>
+                    <p class="px-0 mt-3 px-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+                        recusandae
+                        ab maiores, modi atque asperiores deserunt possimus itaque aliquam aut, in vitae ullam quasi
+                        laboriosam dolorum porro? Molestiae debitis repudiandae nam mollitia.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-4 row-gap-4 gap-2">
+                <div class="col-10 col-md-5">
+                    <div class="card rounded-4">
+                        <div class="card-body p-5">
+                            <div class="card-text text-center">
+                                <h4>Accounting</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum ut distinctio
+                                    porro, modi,
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="skills-right">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorem totam saepe voluptatum
-                        repellendu</p>
-                    <div class="skills-list">
-                        <ul>
-                            <li>XX</li>
-                            <li>XX</li>
-                            <li>XX</li>
-                        </ul>
+                <div class="col-10 col-md-5">
+                    <div class="card rounded-4">
+                        <div class="card-body p-5">
+                            <div class="card-text text-center">
+                                <h4>Accounting</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum ut distinctio
+                                    porro, modi,
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-5">
+                    <div class="card rounded-4">
+                        <div class="card-body p-5">
+                            <div class="card-text text-center">
+                                <h4>Accounting</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum ut distinctio
+                                    porro, modi,
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-5">
+                    <div class="card rounded-4">
+                        <div class="card-body p-5">
+                            <div class="card-text text-center">
+                                <h4>Accounting</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum ut distinctio
+                                    porro, modi,
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-    </section>
-    <!-- End SE -->
-
-    <!-- Project -->
-    <section id="projects">
-        <h1 class="section-title-about">My Projects </h1>
-        <div class="grid-3">
-            <!-- About 1 -->
-            <div class="about">
-                <div class="about-icon">
-                    <img src="path_to_your_image" alt="">
+        </section>
+        <section id="contact" class="container-fluid mt-5 pb-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col px-5 text-center">
+                    <h1 class="fw-normal mt-5">Contact</h1>
                 </div>
-                <h4>Accounting</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum ut distinctio porro, modi,
-                </p>
             </div>
-            <!-- About 1 -->
-            <div class="about">
-                <div class="about-icon">
-                    <img src="path_to_your_image" alt="">
+            <div class="row justify-content-center pt-4 gap-2">
+                <div class="col-10 col-md-5">
+                    <form class="pb-4 border-bottom border-dark" action="" method="post">
+                        <div class="mb-3">
+                            <label for="nameInput" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="nameInput" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailInput" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn-outline-primary btn">Send</button>
+                    </form>
+                    <div class="social d-flex pt-4 justify-content-evenly">
+                        <a href="http://"><i class="bi bi-instagram"></i></a>
+                        <a href="http://"><i class="bi bi-twitter"></i></a>
+                        <a href="http://"><i class="bi bi-facebook"></i></a>
+                        <a href="http://"><i class="bi bi-whatsapp"></i></a>
+                    </div>
                 </div>
-                <h4>Accounting</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum ut distinctio porro, modi,
-                </p>
             </div>
+        </section>
+    </main>
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            Made with <i class="bi bi-heart-fill"></i> with
+            <a class="text-body" href="https://">Massayu</a>
         </div>
-    </section>
-    <!-- End Project -->
-
-    <!-- Contact -->
-
-    <!-- End Contact -->
+    </footer>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                const navToggle = document.querySelector('.navbar-toggler');
+                if (navToggle.getAttribute('aria-expanded') === 'true') {
+                    navToggle.click();
+                }
+            });
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const offset = 75;
+
+                const target = document.querySelector(this.getAttribute('href'));
+                const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+                const offsetPosition = targetPosition - offset;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.navbar-nav a');
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.pageYOffset >= sectionTop - sectionHeight / 3) {
+                    const sectionId = section.getAttribute('id');
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${sectionId}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
